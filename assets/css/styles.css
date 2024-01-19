@@ -172,7 +172,6 @@ table caption {
 
 .intro-content {
     position: relative;
-    top: -7rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -264,4 +263,8 @@ table caption {
 .responsive-table {
     overflow: hidden;
     overflow-x: auto;
+}
+
+.contact-form {
+    grid-column: span 2;
 }
