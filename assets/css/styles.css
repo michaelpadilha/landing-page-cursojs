@@ -330,3 +330,16 @@ table caption {
     color: var(--light-gray-color);
 }
 
+.footer {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer a {
+    color: var(--primary-color);
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
